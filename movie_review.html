@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie review</title>
+    <style>        
+        form{
+          width: 400px;
+          border: 3px solid black ;
+          text-align: center;
+          margin: 20px auto;
+          background-color: antiquewhite;
+          border-radius: 6px;
+        }
+        img{
+          width: 400px;
+          height: 200px;
+          
+          
+        }
+    </style>
+</head>
+<body>
+    
+    <form>
+      
+      <img src="https://tse3.mm.bing.net/th?id=OIP.Id4jvAZP51UVRugNXiuH1AHaFj&pid=Api&P=0&h=180 "alt="Sita Ramam"> 
+      <h2 style="margin-top: 1%;">Sita Ramam Movie Review Form</h2>
+      <label for="name">Name</label><br>
+      <input type="text" id="name" name="name">
+      <br><br>
+      <label for="rating">Rating</label>
+      <br>
+      <select id="rating" name="rating">
+        <option value="1" style="text-align: center;">⭐</option>
+        <option value="2" style="text-align: center;">⭐⭐</option>
+        <option value="3" style="text-align: center;">⭐⭐⭐</option>
+        <option value="4" style="text-align: center;">⭐⭐⭐⭐</option>
+        <option value="5" style="text-align: center;">⭐⭐⭐⭐⭐</option>
+      </select>
+      <br><br>
+      <label for="review">Review</label>
+      <br>
+      <textarea id="review" name="review" rows="5" cols="30"></textarea>
+      <br><br>
+      <label for="positives">Positives</label>
+      <br>
+      <textarea id="positives" name="positives" rows="3" cols="30"></textarea>
+      <br><br>
+      <label for="negatives">Negatives</label>
+      <br>
+      <textarea id="negatives" name="negatives" rows="3" cols="30"></textarea><br><br>
+      <button type="submit">Submit Review</button><br><br>
+    </form>
+</body>
+</html>
